@@ -37,6 +37,10 @@
               "name": "UPS United States Ground"
             },
             {
+              "matches": "04",
+              "name": "unknown"
+            },
+            {
               "matches": "12",
               "name": "UPS United States Third Day Select"
             },
@@ -74,6 +78,10 @@
             },
             {
               "matches": "66",
+              "name": "UPS United States Worldwide Express"
+            },
+            {
+              "matches": "67",
               "name": "UPS United States Worldwide Express"
             },
             {
@@ -132,6 +140,30 @@
           "2Z5R89390357567127",
           "1A5R89390357567127",
           "1Z1111111111111111"
+        ]
+      }
+    },
+    {
+      "name": "UPS Mail Innovations - Sequence Number",
+      "regex": [
+        "\\s*8\\s*0\\s*",
+        "(?<SerialNumber>([0-9]\\s*){16,16})\\s*"
+      ],
+      "tracking_url": "https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=%s",
+      "validation": {
+      },
+      "test_numbers": {
+        "valid": [
+          "800000000000000000",
+          "802586828491118581",
+          "802671828492316810",
+          " 8 0 2 5 8 6 8 2 8 4 9 1 1 1 8 5 8 1"
+        ],
+        "invalid": [
+          "900000000000000000",
+          "902586828491118581",
+          "80267182849231",
+          "8026718284923159716712"
         ]
       }
     }

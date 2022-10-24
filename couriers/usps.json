@@ -37,6 +37,10 @@
           "regex_group_name": "ServiceType",
           "lookup": [
             {
+              "matches": "03",
+              "name": "unknown"
+            },
+            {
               "matches": "71",
               "name": "Certified Mail"
             },
