@@ -82,7 +82,11 @@
             },
             {
               "matches": "67",
-              "name": "UPS United States Worldwide Express"
+              "name": "UPS United States Worldwide Express (not documented)"
+            },
+            {
+              "matches": "68",
+              "name": "UPS United States Worldwide Express (not documented)"
             },
             {
               "matches": "72",
@@ -134,7 +138,8 @@
           "1Z410E7W0392751591",
           "1Z8V92A70367203024",
           " 1 Z 8 V 9 2 A 7 0 3 6 7 2 0 3 0 2 4 ",
-          "1ZXX3150YW44070023"
+          "1ZXX3150YW44070023",
+          "1ZXX42516811434672"
         ],
         "invalid": [
           "2Z5R89390357567127",
